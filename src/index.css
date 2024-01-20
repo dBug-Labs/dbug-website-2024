@@ -4,5 +4,8 @@
 @tailwind utilities;
 *{
     font-family: 'Poppins', sans-serif;
-    background-color:black;
+    z-index: 0;
+}
+body{
+    background-color: black;
 }
