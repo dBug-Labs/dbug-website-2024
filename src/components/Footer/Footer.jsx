@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className='px-13 py-4 text-center mt-0'>Join Dbug Labs, the student club dedicated to mastering the art of debugging and testing. Enhance your skills, share your knowledge, share your knowledge, and work collaboratively in a supportive community of like-minded students.</p>
+          <p className='px-13 py-4 text-center mt-0'>Join Dbug Labs, the student club dedicated to mastering the art of debugging and testing. Enhance your skills, share your knowledge, and work collaboratively in a supportive community of like-minded students.</p>
         </div>
         <div className='flex flex-col place-content-center items-center'>
           <a className='flex flex-row' href="mailto:hello@dbuglabs.com">@ hello@dbuglabs.com &#8226; &nbsp; <img className='w-2 sm:w-3 md:w-4' src="AssetsFooter\phone-solid.svg" alt="Phone" /> +91 7337334895</a>
