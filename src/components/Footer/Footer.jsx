@@ -23,15 +23,15 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className='px-13 py-10 text-center mt-0'>Join Dbug Labs, the student club dedicated to mastering the art of debugging and testing. Enhance your skills, share your knowledge, share your knowledge, and work collaboratively in a supportive community of like-minded students.</p>
+          <p className='px-13 py-4 text-center mt-0'>Join Dbug Labs, the student club dedicated to mastering the art of debugging and testing. Enhance your skills, share your knowledge, share your knowledge, and work collaboratively in a supportive community of like-minded students.</p>
         </div>
         <div className='flex flex-col place-content-center items-center'>
           <a className='flex flex-row' href="mailto:hello@dbuglabs.com">@ hello@dbuglabs.com &#8226; &nbsp; <img className='w-2 sm:w-3 md:w-4' src="AssetsFooter\phone-solid.svg" alt="Phone" /> +91 7337334895</a>
-          <p className='flex flex-row pt-8 pb-12' href="#"> &#169; Crafted with &nbsp; <img className='w-2 sm:w-3 md:w-4' src="AssetsFooter\heart-solid.svg" alt="Heart" /> &nbsp; dbug Labs 2024</p>
+          <p className='flex flex-row pb-24' href="#"> &#169; Crafted with &nbsp; <img className='w-2 sm:w-3 md:w-4' src="AssetsFooter\heart-solid.svg" alt="Heart" /> &nbsp; dbug Labs 2024</p>
         </div>
 
       </div>
-      <img className='absolute -z-10 h-24 left-0 bottom-0 min-[375px]:h-28 sm:h-32 md:h-44 lg:h-56 xl:h-72 ' src="AssetsFooter\footer-bg.svg" alt="" />
+      <img className='absolute -z-10 h-24 left-0 bottom-0 min-[375px]:h-28 sm:h-32 md:h-36 lg:h-48 xl:h-60 ' src="AssetsFooter\footer-bg.svg" alt="" />
     </div>
   )
 }
