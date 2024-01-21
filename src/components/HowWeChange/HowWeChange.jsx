@@ -19,8 +19,8 @@ import mArrow1 from "/AssetsHowWeChange/m Arrow 1.svg";
 const Card = (props) => {
   return (
     <div className="flex flex-col max-w-[304px] gap-4 text-[#CDCDCD] font-poppins">
-      <h1 className="md:text-3xl sm:text-lg font-bold">{props.head}</h1>
-      <p className="md:text-lg sm:text-sm font-semibold w-[8rem] md:w-auto">{props.text}</p>
+      <h1 className="md:text-3xl smb:text-lg font-bold">{props.head}</h1>
+      <p className="md:text-lg smb:text-sm font-semibold w-[8rem] md:w-auto">{props.text}</p>
       <img className={props.imageWidth} src={props.imagePath} alt="" />
     </div>
   );
@@ -30,8 +30,8 @@ const HowWeChange = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center mt-12 mb-12 text-[#CDCDCD] font-poppins">
-  <h1 className="lg:text-6xl md:text-4xl sm:text-2xl text-[#CDCDCD] font-bond font-poppins font-bold text-center">How We Change <span className=" font-bold bg-clip-text text-transparent" style={{ backgroundImage: 'linear-gradient(to top, #727272, white)' }}>Dreams</span> into Reality</h1>
-  <h2 className="lg:text-3xl md:text-2xl sm:text-lg text-center lg:line-clamp-2 text-[#CDCDCD] font-bold font-poppins pt-5 lg:px-10">
+  <h1 className="lg:text-6xl md:text-4xl smb:text-2xl text-[#CDCDCD] font-bond font-poppins font-bold text-center">How We Change <span className=" font-bold bg-clip-text text-transparent" style={{ backgroundImage: 'linear-gradient(to top, #727272, white)' }}>Dreams</span> into Reality</h1>
+  <h2 className="lg:text-3xl md:text-2xl smb:text-lg text-center lg:line-clamp-2 text-[#CDCDCD] font-bold font-poppins pt-5 lg:px-10 mx-5">
     Everything begins with an idea and this is how the dbuglabs team diligently 
   
     carries out the steps to bring it into existence.
@@ -73,10 +73,10 @@ const HowWeChange = () => {
         <div className="flex flex-col mt-96 gap-24">
           {/* arrow */}
           <img src={Arrow1} className="w-[400px] hidden md:block" alt="" />
-          <img src={Arrow2} className="md:w-[300px]  ml-10 mt-12 lg:scale-x-100 sm:scale-x-90 hidden md:block" alt="" />
-          <img src={Arrow3} className="md:w-[260px] mt-32 ml-10  lg:scale-x-100 sm:scale-x-90 hidden md:block" alt="" />
-          <img src={Arrow4} className="md:w-[300px] ml-10 mt-1 lg:scale-x-100 sm:scale-x-90 hidden md:block" alt="" />
-          <img src={mArrow1} className="md:hidden w-[400px] ml-1 mt-10 sm:scale-x-100 " alt="" />
+          <img src={Arrow2} className="md:w-[300px]  ml-10 mt-12 lg:scale-x-100 smb:scale-x-90 hidden md:block" alt="" />
+          <img src={Arrow3} className="md:w-[260px] mt-32 ml-10  lg:scale-x-100 smb:scale-x-90 hidden md:block" alt="" />
+          <img src={Arrow4} className="md:w-[300px] ml-10 mt-1 lg:scale-x-100 smb:scale-x-90 hidden md:block" alt="" />
+          <img src={mArrow1} className="md:hidden w-[400px] ml-1 mt-10 smb:scale-x-100 " alt="" />
         </div>
 
         {/* 3rd column */}

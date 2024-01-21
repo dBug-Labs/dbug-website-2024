@@ -3,14 +3,14 @@ import React from 'react'
 export default function ContactUs() {
   return (
     <div className="bg-black text-white font-light place-content-center my-12 md:mx-10 lg:mx-24">
-      <div className='lg:grid lg:grid-cols-2 lg:gap-x-48 lg:place-items-center ml-[42px] text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]'>
+      <div className='lg:grid lg:grid-cols-2 lg:gap-x-48 lg:place-items-center ml-[10px] text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]'>
         <div>
             <div>
-            <img className='w-48 md:w-52 lg:w-60 xl:w-80' src="AssetsContactUs\Get connected with us.svg" alt="Get Connected With Us" />
+            <img className='w-48 md:w-52 lg:w-60 xl:w-80 ml-[20px]' src="AssetsContactUs\Get connected with us.svg" alt="Get Connected With Us" />
           </div>
 
           <div>
-            <p className='px-13 py-5 mt-0 mr-[16px]'>Join a fast-growing community of developers and innovators connected all over the world, building the new era of debugging.</p>
+            <p className='px-13 py-5 mt-0 ml-[20px] mr-[16px]'>Join a fast-growing community of developers and innovators connected all over the world, building the new era of debugging.</p>
           </div>
         </div>
 

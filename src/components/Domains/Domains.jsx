@@ -9,7 +9,7 @@ function Card3({
     className,
   }) {
     return (
-      <div className={`w-[290px] m-5  shadow-2xl shadow-gray-500 h-auto justify-center border border-solid border-slate-600 py-2 px-0 flex-auto rounded-[45px] p-8 mx-[10px] sm:mx-10 sm:justify-center `}>
+      <div className={`w-[290px] m-5  shadow-2xl shadow-gray-500 h-[820px] justify-center border border-solid border-slate-600 py-2 px-0 flex-auto rounded-[45px] p-8 mx-[10px] md:mx-3 md:justify-center `}>
         <div className="overflow-hidden rounded-lg h-64  flex items-center justify-center">
           <img
             className=" max-w-full max-h-full  rounded-lg "
@@ -29,55 +29,60 @@ function Card3({
 
   const Domain = () => {
     const [currentSet, setCurrentSet] = useState(0);
-  const cardSets = [
-    [{
-      heading : `App Development`,
-      thumbnailSrc : `/AssestsDomain/pic1.png`,
-      description : `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`
-    },
-    {
-      heading : `Web Development`,
-      thumbnailSrc : `/AssestsDomain/pic2.png`,
-      description : `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `
-    },
-    {
-      heading : `Machine Learning`,
-      thumbnailSrc : `/AssestsDomain/pic3.png`,
-      description : `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights.` 
-    }],
-    [
-    {
-      heading : `USER INTERFACE AND USER EXPERIENCE`,
-      thumbnailSrc : `/AssestsDomain/pic4.png`,
-      description : `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`
-    },
-    {
-      heading : `VFX AND GFX`,
-      thumbnailSrc : `/AssestsDomain/pic5.png`,
-      description : `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `
-    },
-    {
-      heading : `CONTENT WRITING`,
-      thumbnailSrc : `/AssestsDomain/pic6.png`,
-      description : `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights. `
-    },],
-    [
-    {
-      heading : `SPONSORSHIP AND MARKETING`,
-      thumbnailSrc : `/AssestsDomain/pic7.png`,
-      description : `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`
-    }, 
-    {
-      heading : `PUBLIC REALTION`,
-      thumbnailSrc : `/AssestsDomain/pic8.png`,
-      description : `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `
-    },
-    {
-      heading : `EVENTS`,
-      thumbnailSrc : `/AssestsDomain/pic9.png`,
-      description : `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights. `
-    }],
-  ]
+    const cardSets = [
+      [
+        {
+          heading: `App Development`,
+          thumbnailSrc: `/AssestsDomain/pic1.png`,
+          description: `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`,
+        },
+        {
+          heading: `Web Development`,
+          thumbnailSrc: `/AssestsDomain/pic2.png`,
+          description: `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `,
+        },
+        {
+          heading: `Machine Learning`,
+          thumbnailSrc: `/AssestsDomain/pic3.png`,
+          description: `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights.`,
+        },
+      ],
+      [
+        {
+          heading: `USER INTERFACE AND USER EXPERIENCE`,
+          thumbnailSrc: `/AssestsDomain/pic4.png`,
+          description: `This is the team that ensures utmost customer satisfaction with their creative and vibrant designs. They tend to work for a streamlined experience for both the club members as well as the audience. They are responsible for the design, layout and overall user interaction with the club’s digital platforms.`,
+        },
+        {
+          heading: `VFX AND GFX`,
+          thumbnailSrc: `/AssestsDomain/pic5.png`,
+          description: `Step into the vibrant world of the gfx/vfx domain which thrives on pushing the boundaries of creativity and captivates the audience with its impactful work. Our mission is to ignite fascination and prove that the perfect blend of visuals and creativity can truly bring about meaningful change. `,
+        },
+        {
+          heading: `CONTENT WRITING`,
+          thumbnailSrc: `/AssestsDomain/pic6.png`,
+          description: `In a domain full of Shakespeare and JK Rowling, we promote creative ways of portraying our ideas. With exceptional talent and unwavering dedication to innovation, we look forward to bridging the gap between our club and the audience `,
+        },
+      ],
+      [
+        {
+          heading: `SPONSORSHIP AND MARKETING`,
+          thumbnailSrc: `/AssestsDomain/pic7.png`,
+          description: `Meet our stellar sponsorship squad, the force fueling our club. Composed of a top-notch team filled with exceptionally skilled individuals who imply a tactical approach to steadily form significant alliances, cultivate connections, and secure assistance, guiding us towards continuous growth and success.      `,
+        },
+        {
+          heading: `PUBLIC RELATION`,
+          thumbnailSrc: `/AssestsDomain/pic8.png`,
+          description: `Meet the voice of the club, who serve their role as the dynamic powerhouse of the club. Consisting of extremely bold candidates, the PR domain preserves the club's reputation. From fostering connections to maintain the liveliness amongst the members they excel in managing every component seamlessly. `,
+        },
+        {
+          heading: `EVENTS`,
+          thumbnailSrc: `/AssestsDomain/pic9.png`,
+          description: `To ignite the fun in all of us and promote educational yet insightful events, we have the creative Events team that makes knowledge meet enthusiasm. They ensure the seamless operation of an event assuring a flawless workflow. They thrive for the utmost precision and perfection. 
+        `,
+        },
+      ],
+    ];
 
 
   const handleSetChange = (setIndex) => {
@@ -85,15 +90,21 @@ function Card3({
   };
 
   return (
-    <div className=''>
-
-       <div className=" mt-4  text-white/65 ml-[5px] flex py-2 px-2 justify-center items-center rounded-xl bg-gray-300 bg-opacity-20 max-w-[400px] my-4 md:ml-[150px] lg:ml-[315px] xl:ml-[515px] ">
-        <button onClick={() => handleSetChange(0)} className=' mx-2 py-1 cursor-pointer  focus:underline underline-offset-4  sm:basis-1/3'>Technical</button>
-        <button onClick={() => handleSetChange(1)} className=' py-1 mx-2 cursor-pointer focus:underline underline-offset-4 sm:basis-1/3'>Creatives</button>
-        <button onClick={() => handleSetChange(2)} className=' py-1 mx-2 cursor-pointer  focus:underline underline-offset-4 sm:basis-1/3'>Corporate</button>
+    <>
+    <div className='flex items-center justify-center md:flex md:justify-center md:pl-5 mt-10'>
+      <h1 className=' text-white font-Poppins  font-bold p-2 xl:text-6xl text-4xl '>Our </h1>
+      <h1 className='text-[#CDCDCD] bg-gradient-to-b from-[#CDCDCD] via-[#CDCDCD] to-[rgba(205, 205, 205, 0.00)] bg-clip-text text-transparent font-Poppins xl:text-6xl text-4xl font-bold'>Domains</h1>
       </div>
+    <div className=''>
+<div className='flex justify-center'>
+       <div className=" mt-4  text-white/65 flex py-2 px-2 justify-center items-center rounded-xl bg-gray-300 bg-opacity-20 max-w-[400px] my-4">
+        <button onClick={() => handleSetChange(0)} className=' mx-2 py-1 cursor-pointer  focus:underline underline-offset-4  md:basis-1/3'>Technical</button>
+        <button onClick={() => handleSetChange(1)} className=' py-1 mx-2 cursor-pointer focus:underline underline-offset-4 md:basis-1/3'>Creatives</button>
+        <button onClick={() => handleSetChange(2)} className=' py-1 mx-2 cursor-pointer  focus:underline underline-offset-4 md:basis-1/3'>Corporate</button>
+      </div>
+</div>
 
-      <div className="  mt-14 card-container flex flex-col  sm:flex-row sm:px-7 sm:justify-center sm:ml-3 " style={{ color: 'rgb(152, 152, 152)' }}>
+      <div className=" mt-14 card-container flex flex-col md:flex-row md:px-3 items-center md:items-start md:mx-0" style={{ color: 'rgb(152, 152, 152)' }}>
         {cardSets[currentSet].map((card, index) => (
           <Card3 
             key={index}
@@ -107,6 +118,7 @@ function Card3({
 
       
     </div>
+    </>
   );
         }
 
