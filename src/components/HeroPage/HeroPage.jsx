@@ -34,7 +34,7 @@ export default function HeroPage() {
           <div className={`w-auto ${isMobile ? 'pl-4 pr-2 ml-4 mr-4' : 'pl-8 pr-6 ml-48 mr-48'}`}>
             <p className={`${isMobile ?  "text-justify": 'text-center'}`} style={{ color: 'rgb(103, 103, 103)' }}>
               <span className='text-white font-bold'>Found a bug?</span> You came to the right place to fix it. We are a <span className='text-white font-bold'>team</span> that wants to make a
-              {/* <span className='text-white font-bold'> big change</span> in the ever-changing programming and software development world. */}
+              <span className='text-white font-bold'> big change</span> in the ever-changing programming and software development world.
             </p>
             
             <button className='mt-16 border-slate-800 border rounded-xl pt-2 pr-10 pl-10 pb-2' style={{ color: 'rgb(176, 176, 176)' }}>
