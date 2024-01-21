@@ -32,49 +32,49 @@ function Card3({
   const cardSets = [
     [{
       heading : `App Development`,
-      thumbnailSrc : `/images/pic1.png`,
+      thumbnailSrc : `/AssestsDomain/pic1.png`,
       description : `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`
     },
     {
       heading : `Web Development`,
-      thumbnailSrc : `/images/pic2.png`,
+      thumbnailSrc : `/AssestsDomain/pic2.png`,
       description : `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `
     },
     {
       heading : `Machine Learning`,
-      thumbnailSrc : `/images/pic3.png`,
+      thumbnailSrc : `/AssestsDomain/pic3.png`,
       description : `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights.` 
     }],
     [
     {
       heading : `USER INTERFACE AND USER EXPERIENCE`,
-      thumbnailSrc : `/images/pic4.png`,
+      thumbnailSrc : `/AssestsDomain/pic4.png`,
       description : `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`
     },
     {
       heading : `VFX AND GFX`,
-      thumbnailSrc : `/images/pic5.png`,
+      thumbnailSrc : `/AssestsDomain/pic5.png`,
       description : `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `
     },
     {
       heading : `CONTENT WRITING`,
-      thumbnailSrc : `/images/pic6.png`,
+      thumbnailSrc : `/AssestsDomain/pic6.png`,
       description : `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights. `
     },],
     [
     {
       heading : `SPONSORSHIP AND MARKETING`,
-      thumbnailSrc : `/images/pic7.png`,
+      thumbnailSrc : `/AssestsDomain/pic7.png`,
       description : `Our talented team specializes in creating consistent cross-platform applications for iOS and Android, leveraging the strengths of Flutter and Swift. With a strong focus on delivering superior user experiences and intuitive design interfaces, their expertise ensures exceptional quality throughout the process.`
     }, 
     {
       heading : `PUBLIC REALTION`,
-      thumbnailSrc : `/images/pic8.png`,
+      thumbnailSrc : `/AssestsDomain/pic8.png`,
       description : `Welcome to the dynamic realm of the web development domain, where contemporary design and robust backend systems harmoniously come together. With the utilization of cutting-edge frameworks and tools, our skilled team masterfully composes design and functionality. `
     },
     {
       heading : `EVENTS`,
-      thumbnailSrc : `/images/pic9.png`,
+      thumbnailSrc : `/AssestsDomain/pic9.png`,
       description : `Get ready to plunge into the fascinating field of machine learning, where advanced algorithms take the center stage! This domain places a strong emphasis on analyzing complex data and deriving valuable insights. `
     }],
   ]
