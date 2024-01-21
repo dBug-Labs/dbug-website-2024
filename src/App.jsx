@@ -16,6 +16,10 @@ function App() {
       </div>
       <Navbar />
       <HeroPage />
+      <div className='flex items-center justify-center sm:flex sm:justify-center sm:pl-5 '>
+      <h1 className=' text-white font-Poppins  font-bold p-2 xl:text-6xl text-4xl '>Our </h1>
+      <h1 className='   text-[#CDCDCD] bg-gradient-to-b from-[#CDCDCD] via-[#CDCDCD] to-[rgba(205, 205, 205, 0.00)] bg-clip-text text-transparent font-Poppins xl:text-6xl text-4xl font-bold'>Domains</h1>
+      </div>
       <Domains />
       <HowWeChange />
       <Community />
