@@ -29,9 +29,9 @@ const Card = (props) => {
 const HowWeChange = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center mt-12 mb-12 text-[#CDCDCD] font-poppins">
-  <h1 className="lg:text-6xl md:text-4xl smb:text-2xl text-[#CDCDCD] font-bond font-poppins font-bold text-center">How We Change <span className=" font-bold bg-clip-text text-transparent" style={{ backgroundImage: 'linear-gradient(to top, #727272, white)' }}>Dreams</span> into Reality</h1>
-  <h2 className="lg:text-3xl md:text-2xl smb:text-lg text-center lg:line-clamp-2 text-[#CDCDCD] font-bold font-poppins pt-5 lg:px-10 mx-5">
+      <div className="flex flex-col justify-center items-center mt-28 md:mt-48 mb-12 text-[#CDCDCD] font-poppins">
+  <h1 className="lg:text-6xl md:text-4xl smb:text-2xl text-[#CDCDCD] font-bond font-poppins font-bold text-center">How We Change <span className="lg:text-6xl md:text-4xl smb:text-2xl font-bold bg-clip-text text-transparent" style={{ backgroundImage: 'linear-gradient(to top, rgb(22, 22, 22), rgb(152, 152, 152))' }}>Dreams </span>into Reality</h1>
+  <h2 className="lg:text-xl md:text-xl smb:text-lg text-center lg:line-clamp-2 text-[#CDCDCD] font-semibold font-poppins pt-5 lg:px-10 mx-5 my-5">
     Everything begins with an idea and this is how the dbuglabs team diligently 
   
     carries out the steps to bring it into existence.
