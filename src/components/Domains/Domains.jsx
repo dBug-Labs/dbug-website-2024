@@ -9,7 +9,7 @@ function Card3({
     className,
   }) {
     return (
-      <div className={`w-[290px] m-5  shadow-2xl shadow-gray-500 h-[820px] justify-center border border-solid border-slate-600 py-2 px-0 flex-auto rounded-[45px] p-8 mx-[10px] md:mx-3 md:justify-center `}>
+      <div className={`w-[290px] m-5 shadow-xl shadow-gray-600 md:h-[820px] lg:h-[550px] justify-center border border-solid border-slate-900 py-2 px-0 flex-auto rounded-[45px] p-8 mx-[10px] md:mx-3 md:justify-center `}>
         <div className="overflow-hidden rounded-lg h-64  flex items-center justify-center">
           <img
             className=" max-w-full max-h-full  rounded-lg "
@@ -17,10 +17,10 @@ function Card3({
             alt={thumbnailAlt}
           />
         </div >
-        <h3 className="pt-5 p-4 text-white text-2xl ">
+        <h3 className="pt-5 p-4 text-white font-semibold text-2xl ">
           {heading}
         </h3>
-        <p className=" p-4 cursor-pointer duration-300 transition text-[#CDCDCD] font-Poppins text-base font-semibold  mt-2">
+        <p className=" p-4 cursor-pointer duration-300 transition text-[#CDCDCD] text-base font-normal -mt-2">
           {description}
         </p>
       </div>
@@ -91,13 +91,14 @@ function Card3({
 
   return (
     <>
+    <img src="/AssestsDomain/bg-lines.svg" className='lg:absolute lg:block hidden top-[94rem] left-[75%]' alt="" />
     <div className='flex items-center justify-center md:flex md:justify-center md:pl-5 mt-10'>
       <h1 className=' text-white font-Poppins  font-bold p-2 xl:text-6xl text-4xl '>Our </h1>
-      <h1 className='text-[#CDCDCD] bg-gradient-to-b from-[#CDCDCD] via-[#CDCDCD] to-[rgba(205, 205, 205, 0.00)] bg-clip-text text-transparent font-Poppins xl:text-6xl text-4xl font-bold'>Domains</h1>
+      <h1 className='text-white font-Poppins font-bold p-2 xl:text-6xl text-4xl '><span className="xl:text-6xl text-4xl font-bold bg-clip-text text-transparent" style={{ backgroundImage: 'linear-gradient(to top, rgb(22, 22, 22), rgb(152, 152, 152))' }}>Domains</span> </h1>
       </div>
     <div className=''>
 <div className='flex justify-center'>
-       <div className=" mt-4  text-white/65 flex py-2 px-2 justify-center items-center rounded-xl bg-gray-300 bg-opacity-20 max-w-[400px] my-4">
+       <div className=" mt-4  text-white/65 flex py-2 px-2 justify-center items-center rounded-full bg-gray-300 bg-opacity-20 max-w-[400px] my-4">
         <button onClick={() => handleSetChange(0)} className=' mx-2 py-1 cursor-pointer  focus:underline underline-offset-4  md:basis-1/3'>Technical</button>
         <button onClick={() => handleSetChange(1)} className=' py-1 mx-2 cursor-pointer focus:underline underline-offset-4 md:basis-1/3'>Creatives</button>
         <button onClick={() => handleSetChange(2)} className=' py-1 mx-2 cursor-pointer  focus:underline underline-offset-4 md:basis-1/3'>Corporate</button>
