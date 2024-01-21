@@ -1,80 +1,102 @@
-import React from 'react';
+// fix heading
+
+// adjust accordingly
+
+import React from "react";
 
 // Import your SVG images
-import IdeateItImage from './assets/IdeateIt.svg';
-import WireframingImage from './assets/Wireframing.svg';
-import DesignItImage from './assets/designIt.svg';
-import DevelopItImage from './assets/developIt.svg';
-import TestItImage from './assets/testIt.svg';
-import Arrow1 from './assets/Arrow 1.svg';
-import Arrow2 from './assets/Arrow 2.svg';
-import Arrow3 from './assets/Arrow 3.svg';
-import Arrow4 from './assets/Arrow 4.svg';
+import IdeateItImage from "/AssetsHowWeChange/IdeateIt.svg";
+import WireframingImage from "/AssetsHowWeChange/Wireframing.svg";
+import DesignItImage from "/AssetsHowWeChange/designIt.svg";
+import DevelopItImage from "/AssetsHowWeChange/developIt.svg";
+import TestItImage from "/AssetsHowWeChange/testIt.svg";
+import Arrow1 from "/AssetsHowWeChange/Arrow 1.svg";
+import Arrow2 from "/AssetsHowWeChange/Arrow 2.svg";
+import Arrow3 from "/AssetsHowWeChange/Arrow 3.svg";
+import Arrow4 from "/AssetsHowWeChange/Arrow 4.svg";
+import mArrow1 from "/AssetsHowWeChange/m Arrow 1.svg";
+
+const Card = (props) => {
+  return (
+    <div className="flex flex-col max-w-[304px] gap-4 text-[#CDCDCD] font-poppins">
+      <h1 className="md:text-3xl sm:text-lg font-bold">{props.head}</h1>
+      <p className="md:text-lg sm:text-sm font-semibold w-[8rem] md:w-auto">{props.text}</p>
+      <img className={props.imageWidth} src={props.imagePath} alt="" />
+    </div>
+  );
+};
 
 const HowWeChange = () => {
   return (
-    <div>
-      <div className='w-full text-center flex flex-col justify-center'>
-        <h1 className='text-[#CDCDCD] font-poppins font-bold text-6xl md:text-5xl lg:text-6xl p-10 w-1169 h-74'>How We Change Dreams Into Reality</h1>
-        <p className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl'>Everything begins with an idea and this is how the dbuglabs team diligently</p>
-        <p className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl'>carries out the steps to bring it into existence.</p>
-      </div>
-      <div className='p-10 flex flex-wrap'>
-      
-        {/* Ideate it (1) */}
-        <div className='w-full md:w-1/2 lg:w-1/3'>
-          <h1 className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl pl-4 md:pl-6 lg:pl-11'>Ideate it!</h1>
-          <div className='text-[#CDCDCD] font-poppins font-semibold text-2xl md:text-xl lg:text-2xl pl-4 md:pl-6 lg:pl-9 p-5'>
-            <p className='text-left'>No one likes a canvas without paint, and nor do we. Giving a life to the wire-frame is our job, and designing only makes it easier.</p>
-            <img src={IdeateItImage} alt="Ideate It" />
-          </div>
-        </div>
-        <div className='flex flex-col justify-center items-center'>
-        <img src={Arrow1} alt='Arrow1' className='hidden md:block mx-6 h-[603px] w-[400px]'/> {/* Adjusted spacing and added mx-6 */}
-        
-        <img src={Arrow2} alt='Arrow2' className='hidden md:block mx-6 '/> {/* Adjusted spacing and added mx-6 */}
-        </div>
-        {/* Wireframe it (2) */}
-        <div className='hidden md:block w-full md:w-1/2 lg:w-1/3 mt-20 mr-auto pl-4 md:pl-6 lg:pl-10'>
-  <h1 className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl'>Wireframe it!</h1>
-  <div className='text-[#CDCDCD] font-poppins font-semibold text-2xl md:text-xl lg:text-2xl p-5'>
-    <p className='text-left'>From segregating the thoughts to making sure they serve their purpose, a proper structure and layout are formed. This is what turns our ideas into the first draft.</p>
-    <img className='object-right' src={WireframingImage} alt="Wireframing" />
-  </div>
+    <>
+      <div className="flex flex-col justify-center items-center mt-12 mb-12 text-[#CDCDCD] font-poppins">
+  <h1 className="lg:text-6xl md:text-4xl sm:text-2xl text-[#CDCDCD] font-bond font-poppins font-bold text-center">How We Change <span className=" font-bold bg-clip-text text-transparent" style={{ backgroundImage: 'linear-gradient(to top, #727272, white)' }}>Dreams</span> into Reality</h1>
+  <h2 className="lg:text-3xl md:text-2xl sm:text-lg text-center lg:line-clamp-2 text-[#CDCDCD] font-bold font-poppins pt-5 lg:px-10">
+    Everything begins with an idea and this is how the dbuglabs team diligently 
+  
+    carries out the steps to bring it into existence.
+  </h2>
 </div>
-       
-        {/* Design it (3) */}
-        <div className='w-full md:w-1/2 lg:w-1/3 mt-20'>
-          <h1 className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl pr-4 mb-4 md:pr-6 lg:pr-10'>Design it!</h1>
-          <div className='text-[#CDCDCD] font-poppins font-semibold text-2xl md:text-xl lg:text-2xl pl-4 md:pl-6 lg:pl-9 p-5'>
-            <p className='text-left'>No one likes a canvas without paint, and nor do we. Giving a life to the wire-frame is our job, and designing only makes it easier.</p>
-            <img src={DesignItImage} alt="Design It" />
-          </div>
+
+      <div className="flex justify-center mb-20 mx-5">
+        <div className="flex flex-col gap-32 text-xs ">
+          {/* first column */}
+
+          {/* 1st card col */}
+          <Card
+            head="Ideate it!"
+            text="
+          Let your delulu picture your idea and watch it turn into something captivating.
+           Watch us brainstorm and reject 100 different 
+           ideas only to come up with the 101th perfect idea."
+            imagePath={IdeateItImage}
+            imageWidth={"220px"}
+          ></Card>
+
+          <Card
+            head="Design it!"
+            text="No one likes a canvas without paint and nor do we. Giving a life to the wire-frame
+           is our job and designing only makes it easier."
+            imagePath={DesignItImage}
+          ></Card>
+
+          <Card
+            head="Test it!"
+            text="Debugging is what we are skilled at and we ensure that the code is bug-free before delivering it.
+           We are always open to customizations, modifications, restructuring and prioritize the quality of our work."
+            imagePath={TestItImage}
+          ></Card>
         </div>
-          
-        <img src={Arrow3} alt='Arrow3' className='hidden md:block mx-6'/> {/* Adjusted spacing and added mx-6 */}
 
-        {/* Develop it (4) */}
-        <div className='hidden md:block w-full md:w-1/2 lg:w-1/3 mt-20'>
-          <h1 className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl pr-4 mb-4 md:pr-6 lg:pr-10'>Develop it!</h1>
-          <div className='text-[#CDCDCD] font-poppins font-semibold text-2xl md:text-xl lg:text-2xl pl-4 md:pl-6 lg:pl-9 p-5'>
-            <p className='text-right'>We got the “Bob the Builder” mindset to fix any problems or obstacles and are always open to learning from mistakes.</p>
-            <img src={DevelopItImage} alt="Develop It" />
-          </div>
+        {/* arrow column */}
+
+        <div className="flex flex-col mt-96 gap-24">
+          {/* arrow */}
+          <img src={Arrow1} className="w-[400px] hidden md:block" alt="" />
+          <img src={Arrow2} className="md:w-[300px]  ml-10 mt-12 lg:scale-x-100 sm:scale-x-90 hidden md:block" alt="" />
+          <img src={Arrow3} className="md:w-[260px] mt-32 ml-10  lg:scale-x-100 sm:scale-x-90 hidden md:block" alt="" />
+          <img src={Arrow4} className="md:w-[300px] ml-10 mt-1 lg:scale-x-100 sm:scale-x-90 hidden md:block" alt="" />
+          <img src={mArrow1} className="md:hidden w-[400px] ml-1 mt-10 sm:scale-x-100 " alt="" />
         </div>
 
-        <img src={Arrow4} alt='Arrow4' className='hidden md:block mx-6'/> {/* Adjusted spacing and added mx-6 */}
+        {/* 3rd column */}
 
-        {/* Test it (5) */}
-        <div className='w-full md:w-1/2 lg:w-1/3 mt-20'>
-          <h1 className='text-[#CDCDCD] font-poppins font-bold text-3xl md:text-2xl lg:text-3xl pr-4 mb-4 md:pr-6 lg:pr-10'>Test it!</h1>
-          <div className='text-[#CDCDCD] font-poppins font-semibold text-2xl md:text-xl lg:text-2xl pl-4 md:pl-6 lg:pl-9 p-5'>
-            <p className='text-right'>Debugging is what we are skilled at, and we ensure that the code is bug-free before delivering it. We are always open to customizations, modifications, restructuring, and prioritize the quality of our work.</p>
-            <img src={TestItImage} alt="Test It" />
-          </div>
+        <div className="flex flex-col mt-52 gap-60">
+          {/* 3rd card col */}
+          <Card
+            head="Wireframe it!"
+            text="From segregating the thoughts to making sure they serve their purpose,
+          a proper structure and layout is formed. This is what turns our ideas into the first draft."
+            imagePath={WireframingImage}
+          ></Card>{" "}
+          <Card
+            head="Develop it!"
+            text="We got the “Bob the Builder” mindset to fix any problems or obstacles and are always open to learning from mistakes."
+            imagePath={DevelopItImage}
+          ></Card>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
