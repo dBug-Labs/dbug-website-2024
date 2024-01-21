@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'sm': '320px',   // Small screens (e.g., mobile portrait)
+        'smb': '320px',   // Small screens (e.g., mobile portrait)
         'md': '768px',   // Medium screens (e.g., tablets)
         'lg': '1024px',  // Large screens (e.g., small desktops)
         
