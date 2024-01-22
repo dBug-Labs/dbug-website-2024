@@ -49,7 +49,7 @@ function Card3({
       ],
       [
         {
-          heading: `User Interface And User Experience`,
+          heading: `UI/UX`,
           thumbnailSrc: `/AssestsDomain/pic4.png`,
           description: `This is the team that ensures utmost customer satisfaction with their creative and vibrant designs. They tend to work for a streamlined experience for both the club members as well as the audience. They are responsible for the design, layout and overall user interaction with the club’s digital platforms.`,
         },
