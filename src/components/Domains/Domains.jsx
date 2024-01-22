@@ -66,7 +66,7 @@ function Card3({
       ],
       [
         {
-          heading: `Sponsership AND Marketing`,
+          heading: `Sponsorship And Marketing`,
           thumbnailSrc: `/AssestsDomain/pic7.png`,
           description: `Meet our stellar sponsorship squad, the force fueling our club. Composed of a top-notch team filled with exceptionally skilled individuals who imply a tactical approach to steadily form significant alliances, cultivate connections, and secure assistance, guiding us towards continuous growth and success.      `,
         },
