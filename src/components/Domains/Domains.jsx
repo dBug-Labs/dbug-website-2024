@@ -49,34 +49,34 @@ function Card3({
       ],
       [
         {
-          heading: `USER INTERFACE AND USER EXPERIENCE`,
+          heading: `UI/UX`,
           thumbnailSrc: `/AssestsDomain/pic4.png`,
           description: `This is the team that ensures utmost customer satisfaction with their creative and vibrant designs. They tend to work for a streamlined experience for both the club members as well as the audience. They are responsible for the design, layout and overall user interaction with the club’s digital platforms.`,
         },
         {
-          heading: `VFX AND GFX`,
+          heading: `VFX And GFX`,
           thumbnailSrc: `/AssestsDomain/pic5.png`,
           description: `Step into the vibrant world of the gfx/vfx domain which thrives on pushing the boundaries of creativity and captivates the audience with its impactful work. Our mission is to ignite fascination and prove that the perfect blend of visuals and creativity can truly bring about meaningful change. `,
         },
         {
-          heading: `CONTENT WRITING`,
+          heading: `Content Writing`,
           thumbnailSrc: `/AssestsDomain/pic6.png`,
           description: `In a domain full of Shakespeare and JK Rowling, we promote creative ways of portraying our ideas. With exceptional talent and unwavering dedication to innovation, we look forward to bridging the gap between our club and the audience `,
         },
       ],
       [
         {
-          heading: `SPONSORSHIP AND MARKETING`,
+          heading: `Sponsorship And Marketing`,
           thumbnailSrc: `/AssestsDomain/pic7.png`,
           description: `Meet our stellar sponsorship squad, the force fueling our club. Composed of a top-notch team filled with exceptionally skilled individuals who imply a tactical approach to steadily form significant alliances, cultivate connections, and secure assistance, guiding us towards continuous growth and success.      `,
         },
         {
-          heading: `PUBLIC RELATION`,
+          heading: `Public Relations`,
           thumbnailSrc: `/AssestsDomain/pic8.png`,
           description: `Meet the voice of the club, who serve their role as the dynamic powerhouse of the club. Consisting of extremely bold candidates, the PR domain preserves the club's reputation. From fostering connections to maintain the liveliness amongst the members they excel in managing every component seamlessly. `,
         },
         {
-          heading: `EVENTS`,
+          heading: `Events`,
           thumbnailSrc: `/AssestsDomain/pic9.png`,
           description: `To ignite the fun in all of us and promote educational yet insightful events, we have the creative Events team that makes knowledge meet enthusiasm. They ensure the seamless operation of an event assuring a flawless workflow. They thrive for the utmost precision and perfection. 
         `,
